@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_KfieAMh5EeyPfq1-ONS5qA">
+  <modelElement href="booking_ticket.uml#_KpDmYsh5EeyPfq1-ONS5qA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_K1eRwMh5EeyPfq1-ONS5qA" source="_K1guAMh5EeyPfq1-ONS5qA">
+    <modelElement href="booking_ticket.uml#_Kwj8kch5EeyPfq1-ONS5qA"/>
+    <stereotypes xmi:id="_K1eRwch5EeyPfq1-ONS5qA" name="Reference">
+      <modelElement href="booking_ticket.uml#_KwoOAMh5EeyPfq1-ONS5qA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_K1eRwsh5EeyPfq1-ONS5qA" text=""/>
+    <sourceRole xmi:id="_K1eRw8h5EeyPfq1-ONS5qA" aggregationKind="NONE" name="">
+      <modelElement href="booking_ticket.uml#_Kwj8ksh5EeyPfq1-ONS5qA"/>
+      <visibility xmi:id="_K1eRxMh5EeyPfq1-ONS5qA" label="+"/>
+      <cardinality xmi:id="_K1eRxch5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_K1eRxsh5EeyPfq1-ONS5qA" aggregationKind="NONE" name="user" navigable="true">
+      <modelElement href="booking_ticket.uml#_KwUE98h5EeyPfq1-ONS5qA"/>
+      <stereotypes xmi:id="_agq9QMlTEeyPfq1-ONS5qA" name="LegacyStyledElement">
+        <modelElement href="booking_ticket.uml#_KwUsAMh5EeyPfq1-ONS5qA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_agq9QclTEeyPfq1-ONS5qA" name="Annotations">
+        <modelElement href="booking_ticket.uml#_KwUsAch5EeyPfq1-ONS5qA"/>
+      </stereotypes>
+      <visibility xmi:id="_K1eRx8h5EeyPfq1-ONS5qA" label="-"/>
+      <cardinality xmi:id="_K1eRyMh5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_K1ff4Mh5EeyPfq1-ONS5qA" source="_K1guAMh5EeyPfq1-ONS5qA">
+    <modelElement href="booking_ticket.uml#_KwoOAch5EeyPfq1-ONS5qA"/>
+    <stereotypes xmi:id="_K1ff4ch5EeyPfq1-ONS5qA" name="Reference">
+      <modelElement href="booking_ticket.uml#_KwttkMh5EeyPfq1-ONS5qA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_K1ff4sh5EeyPfq1-ONS5qA" text=""/>
+    <sourceRole xmi:id="_K1ff48h5EeyPfq1-ONS5qA" aggregationKind="NONE" name="">
+      <modelElement href="booking_ticket.uml#_KwoOAsh5EeyPfq1-ONS5qA"/>
+      <visibility xmi:id="_K1ff5Mh5EeyPfq1-ONS5qA" label="+"/>
+      <cardinality xmi:id="_K1ff5ch5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_K1ff5sh5EeyPfq1-ONS5qA" aggregationKind="NONE" name="show" navigable="true">
+      <modelElement href="booking_ticket.uml#_KwUsA8h5EeyPfq1-ONS5qA"/>
+      <stereotypes xmi:id="_agrkUMlTEeyPfq1-ONS5qA" name="LegacyStyledElement">
+        <modelElement href="booking_ticket.uml#_KwVTEMh5EeyPfq1-ONS5qA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_agrkUclTEeyPfq1-ONS5qA" name="Annotations">
+        <modelElement href="booking_ticket.uml#_KwVTEch5EeyPfq1-ONS5qA"/>
+      </stereotypes>
+      <visibility xmi:id="_K1ff58h5EeyPfq1-ONS5qA" label="-"/>
+      <cardinality xmi:id="_K1ff6Mh5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_K1gG8Mh5EeyPfq1-ONS5qA" source="_K1guAMh5EeyPfq1-ONS5qA">
+    <modelElement href="booking_ticket.uml#_Kwttkch5EeyPfq1-ONS5qA"/>
+    <stereotypes xmi:id="_K1gG8ch5EeyPfq1-ONS5qA" name="Reference">
+      <modelElement href="booking_ticket.uml#_KwzNIMh5EeyPfq1-ONS5qA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_K1gG8sh5EeyPfq1-ONS5qA" text=""/>
+    <sourceRole xmi:id="_K1gG88h5EeyPfq1-ONS5qA" aggregationKind="NONE" name="">
+      <modelElement href="booking_ticket.uml#_Kwttksh5EeyPfq1-ONS5qA"/>
+      <visibility xmi:id="_K1gG9Mh5EeyPfq1-ONS5qA" label="+"/>
+      <cardinality xmi:id="_K1gG9ch5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_K1gG9sh5EeyPfq1-ONS5qA" aggregationKind="NONE" name="seats" navigable="true">
+      <modelElement href="booking_ticket.uml#_KwVTE8h5EeyPfq1-ONS5qA"/>
+      <stereotypes xmi:id="_agrkUslTEeyPfq1-ONS5qA" name="LegacyStyledElement">
+        <modelElement href="booking_ticket.uml#_KwV6Ich5EeyPfq1-ONS5qA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_agrkU8lTEeyPfq1-ONS5qA" name="Annotations">
+        <modelElement href="booking_ticket.uml#_KwWhMMh5EeyPfq1-ONS5qA"/>
+      </stereotypes>
+      <visibility xmi:id="_K1gG98h5EeyPfq1-ONS5qA" label="-"/>
+      <cardinality xmi:id="_K1gG-Mh5EeyPfq1-ONS5qA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_K1p38Mh5EeyPfq1-ONS5qA" sourceAnchor="161.0,117.0" targetAnchor="166.0,0.0" target="_K14hcMh5EeyPfq1-ONS5qA" source="_K1p3-ch5EeyPfq1-ONS5qA">
+    <modelElement href="booking_ticket.uml#_KwfrIMh5EeyPfq1-ONS5qA"/>
+    <stereotypes xmi:id="_K1p38ch5EeyPfq1-ONS5qA" name="Reference">
+      <modelElement href="booking_ticket.uml#_Kwj8kMh5EeyPfq1-ONS5qA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_K1p38sh5EeyPfq1-ONS5qA" text="">
+      <visualProperties xmi:id="_LJBf4Mh5EeyPfq1-ONS5qA" position="40.0,3.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_K1p388h5EeyPfq1-ONS5qA" aggregationKind="NONE" name="">
+      <modelElement href="booking_ticket.uml#_KwfrIch5EeyPfq1-ONS5qA"/>
+      <visualProperties xmi:id="_LJA40ch5EeyPfq1-ONS5qA" position="-57.0,-2.0"/>
+      <visibility xmi:id="_K1p39Mh5EeyPfq1-ONS5qA" label="+"/>
+      <cardinality xmi:id="_K1p39ch5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_K1p39sh5EeyPfq1-ONS5qA" aggregationKind="NONE" name="ticketService" navigable="true">
+      <modelElement href="booking_ticket.uml#_KwPMcMh5EeyPfq1-ONS5qA"/>
+      <visualProperties xmi:id="_LJBf4ch5EeyPfq1-ONS5qA" position="-36.0,-39.0"/>
+      <stereotypes xmi:id="_agsLYMlTEeyPfq1-ONS5qA" name="Annotations">
+        <modelElement href="booking_ticket.uml#_KwPzgMh5EeyPfq1-ONS5qA"/>
+      </stereotypes>
+      <visibility xmi:id="_K1p398h5EeyPfq1-ONS5qA" label="-"/>
+      <cardinality xmi:id="_K1p3-Mh5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_K13TUch5EeyPfq1-ONS5qA" targetItem="_K14hcMh5EeyPfq1-ONS5qA" sourceItem="_K13TUMh5EeyPfq1-ONS5qA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_K169sMh5EeyPfq1-ONS5qA" sourceAnchor="338.0,95.0" targetAnchor="0.0,64.0" target="_K10QAMh5EeyPfq1-ONS5qA" source="_K2C5gMh5EeyPfq1-ONS5qA">
+    <modelElement href="booking_ticket.uml#_Kwz0MMh5EeyPfq1-ONS5qA"/>
+    <stereotypes xmi:id="_K1-BAsh5EeyPfq1-ONS5qA" name="Reference">
+      <modelElement href="booking_ticket.uml#_Kw5TwMh5EeyPfq1-ONS5qA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_K19Z8Mh5EeyPfq1-ONS5qA" text="">
+      <visualProperties xmi:id="_LJCG8ch5EeyPfq1-ONS5qA" position="-30.0,-19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_K1-BAMh5EeyPfq1-ONS5qA" aggregationKind="NONE" name="">
+      <modelElement href="booking_ticket.uml#_Kwz0Mch5EeyPfq1-ONS5qA"/>
+      <visualProperties xmi:id="_LJCG8Mh5EeyPfq1-ONS5qA" position="88.0,-52.0"/>
+      <visibility xmi:id="_K1_2Mch5EeyPfq1-ONS5qA" label="+"/>
+      <cardinality xmi:id="_K1_2MMh5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_K1-BAch5EeyPfq1-ONS5qA" aggregationKind="NONE" name="userRepository" navigable="true">
+      <modelElement href="booking_ticket.uml#_KwWhNMh5EeyPfq1-ONS5qA"/>
+      <visualProperties xmi:id="_LJCG8sh5EeyPfq1-ONS5qA" position="-97.0,2.0"/>
+      <stereotypes xmi:id="_agsLYclTEeyPfq1-ONS5qA" name="Annotations">
+        <modelElement href="booking_ticket.uml#_KwXIQMh5EeyPfq1-ONS5qA"/>
+      </stereotypes>
+      <visibility xmi:id="_K1_2M8h5EeyPfq1-ONS5qA" label="-"/>
+      <cardinality xmi:id="_K1_2Msh5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_K17kwMh5EeyPfq1-ONS5qA" sourceAnchor="338.0,60.0" targetAnchor="0.0,44.0" target="_K1uwcMh5EeyPfq1-ONS5qA" source="_K2C5gMh5EeyPfq1-ONS5qA">
+    <modelElement href="booking_ticket.uml#_Kw5Twch5EeyPfq1-ONS5qA"/>
+    <bendpoints xmi:id="_twC-QMh5EeyPfq1-ONS5qA" sourceX="79" targetX="-81" targetY="69"/>
+    <bendpoints xmi:id="_twC-Qch5EeyPfq1-ONS5qA" sourceX="79" sourceY="-69" targetX="-81"/>
+    <stereotypes xmi:id="_K1-BBsh5EeyPfq1-ONS5qA" name="Reference">
+      <modelElement href="booking_ticket.uml#_Kw8-IMh5EeyPfq1-ONS5qA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_K1-BA8h5EeyPfq1-ONS5qA" text="">
+      <visualProperties xmi:id="_LJCuAch5EeyPfq1-ONS5qA" position="2.0,-12.800000000000011"/>
+    </nameVisual>
+    <sourceRole xmi:id="_K1-BBMh5EeyPfq1-ONS5qA" aggregationKind="NONE" name="">
+      <modelElement href="booking_ticket.uml#_Kw5Twsh5EeyPfq1-ONS5qA"/>
+      <visualProperties xmi:id="_LJCuAMh5EeyPfq1-ONS5qA" position="23.0,-45.5"/>
+      <visibility xmi:id="_K2AdQch5EeyPfq1-ONS5qA" label="+"/>
+      <cardinality xmi:id="_K2AdQMh5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_K1-BBch5EeyPfq1-ONS5qA" aggregationKind="NONE" name="showRepository" navigable="true">
+      <modelElement href="booking_ticket.uml#_KwXIQsh5EeyPfq1-ONS5qA"/>
+      <visualProperties xmi:id="_LJCuAsh5EeyPfq1-ONS5qA" position="-105.0,-52.0"/>
+      <stereotypes xmi:id="_agsLYslTEeyPfq1-ONS5qA" name="Annotations">
+        <modelElement href="booking_ticket.uml#_KwXvUMh5EeyPfq1-ONS5qA"/>
+      </stereotypes>
+      <visibility xmi:id="_K2AdQ8h5EeyPfq1-ONS5qA" label="-"/>
+      <cardinality xmi:id="_K2AdQsh5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_K18L0Mh5EeyPfq1-ONS5qA" sourceAnchor="338.0,16.0" targetAnchor="0.0,25.0" target="_K1xMsMh5EeyPfq1-ONS5qA" source="_K2C5gMh5EeyPfq1-ONS5qA">
+    <modelElement href="booking_ticket.uml#_Kw8-Ich5EeyPfq1-ONS5qA"/>
+    <bendpoints xmi:id="_twDlUMh5EeyPfq1-ONS5qA" sourceX="19" targetX="-129" targetY="161"/>
+    <bendpoints xmi:id="_twDlUch5EeyPfq1-ONS5qA" sourceX="19" sourceY="-161" targetX="-129"/>
+    <stereotypes xmi:id="_K1-oEch5EeyPfq1-ONS5qA" name="Reference">
+      <modelElement href="booking_ticket.uml#_KxB2oMh5EeyPfq1-ONS5qA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_K1-BB8h5EeyPfq1-ONS5qA" text="">
+      <visualProperties xmi:id="_LJDVEch5EeyPfq1-ONS5qA" position="1.0,-39.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_K1-BCMh5EeyPfq1-ONS5qA" aggregationKind="NONE" name="">
+      <modelElement href="booking_ticket.uml#_Kw8-Ish5EeyPfq1-ONS5qA"/>
+      <visualProperties xmi:id="_LJDVEMh5EeyPfq1-ONS5qA" position="21.0,-75.0"/>
+      <visibility xmi:id="_K2BEUMh5EeyPfq1-ONS5qA" label="+"/>
+      <cardinality xmi:id="_K2AdRch5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_K1-oEMh5EeyPfq1-ONS5qA" aggregationKind="NONE" name="ticketRepository" navigable="true">
+      <modelElement href="booking_ticket.uml#_KwXvUsh5EeyPfq1-ONS5qA"/>
+      <visualProperties xmi:id="_LJDVEsh5EeyPfq1-ONS5qA" position="-119.0,-47.0"/>
+      <stereotypes xmi:id="_agsycMlTEeyPfq1-ONS5qA" name="Annotations">
+        <modelElement href="booking_ticket.uml#_KwXvU8h5EeyPfq1-ONS5qA"/>
+      </stereotypes>
+      <visibility xmi:id="_K2BEUsh5EeyPfq1-ONS5qA" label="-"/>
+      <cardinality xmi:id="_K2BEUch5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_K18y4Mh5EeyPfq1-ONS5qA" sourceAnchor="177.0,0.0" targetAnchor="166.0,106.0" dashed="true" superClass="_K14hcMh5EeyPfq1-ONS5qA" subClass="_K2C5gMh5EeyPfq1-ONS5qA">
+    <modelElement href="booking_ticket.uml#_KvXpwch5EeyPfq1-ONS5qA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ZbPjIMiLEeyPfq1-ONS5qA" targetItem="_K1guAMh5EeyPfq1-ONS5qA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_agsyc8lTEeyPfq1-ONS5qA" targetItem="_K1guAMh5EeyPfq1-ONS5qA" sourceItem="_agsycslTEeyPfq1-ONS5qA"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_K13TUMh5EeyPfq1-ONS5qA" sourceConnectionVisual="_K13TUch5EeyPfq1-ONS5qA" text="@author sharsoni&#xA; *" item="_K14hcMh5EeyPfq1-ONS5qA">
+    <modelElement href="booking_ticket.uml#_KwaLkMh5EeyPfq1-ONS5qA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_K1guAMh5EeyPfq1-ONS5qA" comments="_agsycslTEeyPfq1-ONS5qA" targetConnectionVisual="_ZbPjIMiLEeyPfq1-ONS5qA _agsyc8lTEeyPfq1-ONS5qA" name="TicketEntity" associationsOut="_K1eRwMh5EeyPfq1-ONS5qA _K1ff4Mh5EeyPfq1-ONS5qA _K1gG8Mh5EeyPfq1-ONS5qA">
+    <modelElement href="booking_ticket.uml#_KprRcMh5EeyPfq1-ONS5qA"/>
+    <visualProperties xmi:id="_K1guAch5EeyPfq1-ONS5qA" position="-1491.0,186.0" size="166.0,185.0"/>
+    <stereotypes xmi:id="_K1guAsh5EeyPfq1-ONS5qA" name="Table">
+      <modelElement href="booking_ticket.uml#_KptGoMh5EeyPfq1-ONS5qA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_K1guA8h5EeyPfq1-ONS5qA" name="JPA1StyledElement">
+      <modelElement href="booking_ticket.uml#_KpttsMh5EeyPfq1-ONS5qA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_K1guBMh5EeyPfq1-ONS5qA" name="Annotations">
+      <modelElement href="booking_ticket.uml#_Kpvi4Mh5EeyPfq1-ONS5qA"/>
+    </stereotypes>
+    <visibility xmi:id="_K1guBch5EeyPfq1-ONS5qA" label="+"/>
+    <attributes xmi:id="_K1guBsh5EeyPfq1-ONS5qA" name="id">
+      <modelElement href="booking_ticket.uml#_KwPzgsh5EeyPfq1-ONS5qA"/>
+      <stereotypes xmi:id="_K1guB8h5EeyPfq1-ONS5qA" name="LegacyStyledElement">
+        <modelElement href="booking_ticket.uml#_KwQakMh5EeyPfq1-ONS5qA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_K1guCMh5EeyPfq1-ONS5qA" name="Annotations">
+        <modelElement href="booking_ticket.uml#_KwQakch5EeyPfq1-ONS5qA"/>
+      </stereotypes>
+      <visibility xmi:id="_K1guCch5EeyPfq1-ONS5qA" label="-"/>
+      <cardinality xmi:id="_K1guCsh5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+      <type xmi:id="_K1guC8h5EeyPfq1-ONS5qA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_K1guDMh5EeyPfq1-ONS5qA" name="allottedSeats">
+      <modelElement href="booking_ticket.uml#_KwRBo8h5EeyPfq1-ONS5qA"/>
+      <stereotypes xmi:id="_K1guDch5EeyPfq1-ONS5qA" name="LegacyStyledElement">
+        <modelElement href="booking_ticket.uml#_KwRosMh5EeyPfq1-ONS5qA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_K1guDsh5EeyPfq1-ONS5qA" name="Annotations">
+        <modelElement href="booking_ticket.uml#_KwRosch5EeyPfq1-ONS5qA"/>
+      </stereotypes>
+      <visibility xmi:id="_K1guD8h5EeyPfq1-ONS5qA" label="-"/>
+      <cardinality xmi:id="_K1guEMh5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+      <type xmi:id="_K1guEch5EeyPfq1-ONS5qA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_K1guEsh5EeyPfq1-ONS5qA" name="amount">
+      <modelElement href="booking_ticket.uml#_KwRotch5EeyPfq1-ONS5qA"/>
+      <stereotypes xmi:id="_K1guE8h5EeyPfq1-ONS5qA" name="LegacyStyledElement">
+        <modelElement href="booking_ticket.uml#_KwSPwMh5EeyPfq1-ONS5qA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_K1guFMh5EeyPfq1-ONS5qA" name="Annotations">
+        <modelElement href="booking_ticket.uml#_KwS20Mh5EeyPfq1-ONS5qA"/>
+      </stereotypes>
+      <visibility xmi:id="_K1guFch5EeyPfq1-ONS5qA" label="-"/>
+      <cardinality xmi:id="_K1guFsh5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+      <type xmi:id="_K1guF8h5EeyPfq1-ONS5qA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_K1guGMh5EeyPfq1-ONS5qA" name="bookedAt">
+      <modelElement href="booking_ticket.uml#_KwS21Mh5EeyPfq1-ONS5qA"/>
+      <stereotypes xmi:id="_K1guGch5EeyPfq1-ONS5qA" name="LegacyStyledElement">
+        <modelElement href="booking_ticket.uml#_KwTd4Mh5EeyPfq1-ONS5qA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_K1guGsh5EeyPfq1-ONS5qA" name="Annotations">
+        <modelElement href="booking_ticket.uml#_KwUE8Mh5EeyPfq1-ONS5qA"/>
+      </stereotypes>
+      <visibility xmi:id="_K1guG8h5EeyPfq1-ONS5qA" label="-"/>
+      <cardinality xmi:id="_K1guHMh5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+      <type xmi:id="_K1guHch5EeyPfq1-ONS5qA" name="Date">
+        <modelElement href="booking_ticket.uml#_Ks8A0Mh5EeyPfq1-ONS5qA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_K1guHsh5EeyPfq1-ONS5qA" name="user">
+      <modelElement href="booking_ticket.uml#_KwUE98h5EeyPfq1-ONS5qA"/>
+      <stereotypes xmi:id="_ahNv0MlTEeyPfq1-ONS5qA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_ahSBQMlTEeyPfq1-ONS5qA" name="Annotations"/>
+      <stereotypes xmi:id="_ahTPYMlTEeyPfq1-ONS5qA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_ahT2cMlTEeyPfq1-ONS5qA" name="Annotations"/>
+      <stereotypes xmi:id="_ahbyQMlTEeyPfq1-ONS5qA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_ahcZUMlTEeyPfq1-ONS5qA" name="Annotations"/>
+      <visibility xmi:id="_K1guIch5EeyPfq1-ONS5qA" label="-"/>
+      <cardinality xmi:id="_K1guIsh5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+      <type xmi:id="_K1guI8h5EeyPfq1-ONS5qA" name="UserEntity">
+        <modelElement href="booking_ticket.uml#_KrpAUch5EeyPfq1-ONS5qA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_K1guJMh5EeyPfq1-ONS5qA" name="show">
+      <modelElement href="booking_ticket.uml#_KwUsA8h5EeyPfq1-ONS5qA"/>
+      <stereotypes xmi:id="_ahUdgMlTEeyPfq1-ONS5qA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_ahUdgclTEeyPfq1-ONS5qA" name="Annotations"/>
+      <stereotypes xmi:id="_ahVEkMlTEeyPfq1-ONS5qA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_ahVroMlTEeyPfq1-ONS5qA" name="Annotations"/>
+      <stereotypes xmi:id="_ahdAYMlTEeyPfq1-ONS5qA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_ahdAYclTEeyPfq1-ONS5qA" name="Annotations"/>
+      <visibility xmi:id="_K1guJ8h5EeyPfq1-ONS5qA" label="-"/>
+      <cardinality xmi:id="_K1guKMh5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+      <type xmi:id="_K1guKch5EeyPfq1-ONS5qA" name="ShowsEntity">
+        <modelElement href="booking_ticket.uml#_KrwVEMh5EeyPfq1-ONS5qA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_K1guKsh5EeyPfq1-ONS5qA" name="seats">
+      <modelElement href="booking_ticket.uml#_KwVTE8h5EeyPfq1-ONS5qA"/>
+      <stereotypes xmi:id="_ahWSsMlTEeyPfq1-ONS5qA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_ahWSsclTEeyPfq1-ONS5qA" name="Annotations"/>
+      <stereotypes xmi:id="_ahW5wMlTEeyPfq1-ONS5qA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_ahW5wclTEeyPfq1-ONS5qA" name="Annotations"/>
+      <stereotypes xmi:id="_ahdncMlTEeyPfq1-ONS5qA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_ahdncclTEeyPfq1-ONS5qA" name="Annotations"/>
+      <visibility xmi:id="_K1guLch5EeyPfq1-ONS5qA" label="-"/>
+      <cardinality xmi:id="_K1guLsh5EeyPfq1-ONS5qA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_K1guL8h5EeyPfq1-ONS5qA" name="ShowsSeatsEntity">
+        <modelElement href="booking_ticket.uml#_KvPt8ch5EeyPfq1-ONS5qA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_agsycclTEeyPfq1-ONS5qA" name="toString">
+      <modelElement href="booking_ticket.uml#_Fb8WUMk_EeyPfq1-ONS5qA"/>
+      <stereotypes xmi:id="_ahNIxMlTEeyPfq1-ONS5qA" name="Annotations">
+        <modelElement href="booking_ticket.uml#_Fb89YMk_EeyPfq1-ONS5qA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ahNIxclTEeyPfq1-ONS5qA" name="LegacyStyledElement">
+        <modelElement href="booking_ticket.uml#_Fb-ykMk_EeyPfq1-ONS5qA"/>
+      </stereotypes>
+      <visibility xmi:id="_ahNIw8lTEeyPfq1-ONS5qA" label="+"/>
+      <cardinality xmi:id="_ahNIwslTEeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ahNIwMlTEeyPfq1-ONS5qA">
+        <modelElement href="booking_ticket.uml#_FcAAsMk_EeyPfq1-ONS5qA"/>
+        <type xmi:id="_ahNIwclTEeyPfq1-ONS5qA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_K14hcMh5EeyPfq1-ONS5qA" comments="_K13TUMh5EeyPfq1-ONS5qA" targetConnectionVisual="_K13TUch5EeyPfq1-ONS5qA" name="TicketService" associationsIn="_K1p38Mh5EeyPfq1-ONS5qA" subclassedBy="_K18y4Mh5EeyPfq1-ONS5qA">
+    <modelElement href="booking_ticket.uml#_KpaLsMh5EeyPfq1-ONS5qA"/>
+    <visualProperties xmi:id="_K14hcch5EeyPfq1-ONS5qA" position="-1296.0,183.0" size="331.0,106.0"/>
+    <visibility xmi:id="_K14hcsh5EeyPfq1-ONS5qA" label="+"/>
+    <operations xmi:id="_K14hc8h5EeyPfq1-ONS5qA" name="getTicket">
+      <modelElement href="booking_ticket.uml#_KpbZ0sh5EeyPfq1-ONS5qA"/>
+      <visibility xmi:id="_K14hdMh5EeyPfq1-ONS5qA" label="+"/>
+      <cardinality xmi:id="_K14hdch5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_K14hdsh5EeyPfq1-ONS5qA">
+        <modelElement href="booking_ticket.uml#_KrTCEMh5EeyPfq1-ONS5qA"/>
+        <type xmi:id="_K14hd8h5EeyPfq1-ONS5qA" name="TicketEntity">
+          <modelElement href="booking_ticket.uml#_KprRcMh5EeyPfq1-ONS5qA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_K14heMh5EeyPfq1-ONS5qA" name="id">
+        <modelElement href="booking_ticket.uml#_KpbZ08h5EeyPfq1-ONS5qA"/>
+        <cardinality xmi:id="_K14hech5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+        <type xmi:id="_K14hesh5EeyPfq1-ONS5qA" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_K14he8h5EeyPfq1-ONS5qA" name="bookTicket">
+      <modelElement href="booking_ticket.uml#_KvatEMh5EeyPfq1-ONS5qA"/>
+      <visibility xmi:id="_K14hfMh5EeyPfq1-ONS5qA" label="+"/>
+      <cardinality xmi:id="_K14hfch5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_K14hfsh5EeyPfq1-ONS5qA">
+        <modelElement href="booking_ticket.uml#_KvatEsh5EeyPfq1-ONS5qA"/>
+        <type xmi:id="_K14hf8h5EeyPfq1-ONS5qA" name="TicketEntity">
+          <modelElement href="booking_ticket.uml#_KprRcMh5EeyPfq1-ONS5qA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_K14hgMh5EeyPfq1-ONS5qA" name="bookTicketRequest">
+        <modelElement href="booking_ticket.uml#_KvatEch5EeyPfq1-ONS5qA"/>
+        <cardinality xmi:id="_K14hgch5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+        <type xmi:id="_K14hgsh5EeyPfq1-ONS5qA" name="BookTicketRequest">
+          <modelElement href="booking_ticket.uml#_KrM7cMh5EeyPfq1-ONS5qA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_K1p3-ch5EeyPfq1-ONS5qA" name="TicketController" associationsOut="_K1p38Mh5EeyPfq1-ONS5qA">
+    <modelElement href="booking_ticket.uml#_KplK0Mh5EeyPfq1-ONS5qA"/>
+    <visualProperties xmi:id="_K1p3-sh5EeyPfq1-ONS5qA" position="-1291.0,24.0" size="313.0,117.0"/>
+    <stereotypes xmi:id="_K1p3-8h5EeyPfq1-ONS5qA" name="LegacyStyledElement">
+      <modelElement href="booking_ticket.uml#_Kplx4Mh5EeyPfq1-ONS5qA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_K1p3_Mh5EeyPfq1-ONS5qA" name="Annotations">
+      <modelElement href="booking_ticket.uml#_KppcQMh5EeyPfq1-ONS5qA"/>
+    </stereotypes>
+    <visibility xmi:id="_K1p3_ch5EeyPfq1-ONS5qA" label="+"/>
+    <attributes xmi:id="_K1p3_sh5EeyPfq1-ONS5qA" name="ticketService">
+      <modelElement href="booking_ticket.uml#_KwPMcMh5EeyPfq1-ONS5qA"/>
+      <stereotypes xmi:id="_ahXg0MlTEeyPfq1-ONS5qA" name="Annotations"/>
+      <stereotypes xmi:id="_ahYH4MlTEeyPfq1-ONS5qA" name="Annotations"/>
+      <stereotypes xmi:id="_aheOgMlTEeyPfq1-ONS5qA" name="Annotations"/>
+      <visibility xmi:id="_K1p4AMh5EeyPfq1-ONS5qA" label="-"/>
+      <cardinality xmi:id="_K1p4Ach5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+      <type xmi:id="_K1p4Ash5EeyPfq1-ONS5qA" name="TicketService">
+        <modelElement href="booking_ticket.uml#_KpaLsMh5EeyPfq1-ONS5qA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_K1p4A8h5EeyPfq1-ONS5qA" name="getTicket">
+      <modelElement href="booking_ticket.uml#_KpmY8Mh5EeyPfq1-ONS5qA"/>
+      <stereotypes xmi:id="_K1p4BMh5EeyPfq1-ONS5qA" name="Generics">
+        <modelElement href="booking_ticket.uml#_KpnAAMh5EeyPfq1-ONS5qA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_K1p4Bch5EeyPfq1-ONS5qA" name="Annotations">
+        <modelElement href="booking_ticket.uml#_Kpo1MMh5EeyPfq1-ONS5qA"/>
+      </stereotypes>
+      <visibility xmi:id="_K1p4Bsh5EeyPfq1-ONS5qA" label="+"/>
+      <cardinality xmi:id="_K1p4B8h5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_K1p4CMh5EeyPfq1-ONS5qA">
+        <modelElement href="booking_ticket.uml#_KwK7A8h5EeyPfq1-ONS5qA"/>
+        <type xmi:id="_K1p4Cch5EeyPfq1-ONS5qA" name="ResponseEntity">
+          <modelElement href="booking_ticket.uml#_KsEeIch5EeyPfq1-ONS5qA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_K1p4Csh5EeyPfq1-ONS5qA" name="id">
+        <modelElement href="booking_ticket.uml#_KpmY8ch5EeyPfq1-ONS5qA"/>
+        <cardinality xmi:id="_K1p4C8h5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+        <type xmi:id="_K1p4DMh5EeyPfq1-ONS5qA" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_K1p4Dch5EeyPfq1-ONS5qA" name="bookTicket">
+      <modelElement href="booking_ticket.uml#_KwFbcMh5EeyPfq1-ONS5qA"/>
+      <stereotypes xmi:id="_K1p4Dsh5EeyPfq1-ONS5qA" name="Generics">
+        <modelElement href="booking_ticket.uml#_KwJF0Mh5EeyPfq1-ONS5qA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_K1p4D8h5EeyPfq1-ONS5qA" name="Annotations">
+        <modelElement href="booking_ticket.uml#_KwK7AMh5EeyPfq1-ONS5qA"/>
+      </stereotypes>
+      <visibility xmi:id="_K1p4EMh5EeyPfq1-ONS5qA" label="+"/>
+      <cardinality xmi:id="_K1p4Ech5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_K1p4Esh5EeyPfq1-ONS5qA">
+        <modelElement href="booking_ticket.uml#_KwJF0ch5EeyPfq1-ONS5qA"/>
+        <type xmi:id="_K1p4E8h5EeyPfq1-ONS5qA" name="ResponseEntity">
+          <modelElement href="booking_ticket.uml#_KsEeIch5EeyPfq1-ONS5qA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_K1p4FMh5EeyPfq1-ONS5qA" name="bookTicketRequest">
+        <modelElement href="booking_ticket.uml#_KwFbcch5EeyPfq1-ONS5qA"/>
+        <cardinality xmi:id="_K1p4Fch5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+        <type xmi:id="_K1p4Fsh5EeyPfq1-ONS5qA" name="BookTicketRequest">
+          <modelElement href="booking_ticket.uml#_KrM7cMh5EeyPfq1-ONS5qA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_K2C5gMh5EeyPfq1-ONS5qA" name="TicketServiceImpl" associationsOut="_K169sMh5EeyPfq1-ONS5qA _K17kwMh5EeyPfq1-ONS5qA _K18L0Mh5EeyPfq1-ONS5qA" generalizations="_K18y4Mh5EeyPfq1-ONS5qA">
+    <modelElement href="booking_ticket.uml#_KpymMMh5EeyPfq1-ONS5qA"/>
+    <visualProperties xmi:id="_K2C5gch5EeyPfq1-ONS5qA" position="-1307.0,313.0" size="338.0,121.0"/>
+    <stereotypes xmi:id="_K2C5gsh5EeyPfq1-ONS5qA" name="LegacyStyledElement">
+      <modelElement href="booking_ticket.uml#_Kpz0UMh5EeyPfq1-ONS5qA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_K2C5g8h5EeyPfq1-ONS5qA" name="Annotations">
+      <modelElement href="booking_ticket.uml#_Kp1pgMh5EeyPfq1-ONS5qA"/>
+    </stereotypes>
+    <visibility xmi:id="_K2C5hMh5EeyPfq1-ONS5qA" label="+"/>
+    <attributes xmi:id="_K2C5hch5EeyPfq1-ONS5qA" name="userRepository">
+      <modelElement href="booking_ticket.uml#_KwWhNMh5EeyPfq1-ONS5qA"/>
+      <stereotypes xmi:id="_ahYH4clTEeyPfq1-ONS5qA" name="Annotations"/>
+      <stereotypes xmi:id="_ahYu8MlTEeyPfq1-ONS5qA" name="Annotations"/>
+      <stereotypes xmi:id="_ahe1kMlTEeyPfq1-ONS5qA" name="Annotations"/>
+      <visibility xmi:id="_K2C5h8h5EeyPfq1-ONS5qA" label="-"/>
+      <cardinality xmi:id="_K2C5iMh5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+      <type xmi:id="_K2C5ich5EeyPfq1-ONS5qA" name="UserRepository">
+        <modelElement href="booking_ticket.uml#_Kpcn8Mh5EeyPfq1-ONS5qA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_K2C5ish5EeyPfq1-ONS5qA" name="showRepository">
+      <modelElement href="booking_ticket.uml#_KwXIQsh5EeyPfq1-ONS5qA"/>
+      <stereotypes xmi:id="_ahZWAMlTEeyPfq1-ONS5qA" name="Annotations"/>
+      <stereotypes xmi:id="_ahZ9EMlTEeyPfq1-ONS5qA" name="Annotations"/>
+      <stereotypes xmi:id="_ahe1kclTEeyPfq1-ONS5qA" name="Annotations"/>
+      <visibility xmi:id="_K2C5jMh5EeyPfq1-ONS5qA" label="-"/>
+      <cardinality xmi:id="_K2C5jch5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+      <type xmi:id="_K2C5jsh5EeyPfq1-ONS5qA" name="ShowsRepository">
+        <modelElement href="booking_ticket.uml#_Kpg5YMh5EeyPfq1-ONS5qA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_K2C5j8h5EeyPfq1-ONS5qA" name="ticketRepository">
+      <modelElement href="booking_ticket.uml#_KwXvUsh5EeyPfq1-ONS5qA"/>
+      <stereotypes xmi:id="_ahakIMlTEeyPfq1-ONS5qA" name="Annotations"/>
+      <stereotypes xmi:id="_ahbLMMlTEeyPfq1-ONS5qA" name="Annotations"/>
+      <stereotypes xmi:id="_ahfcoMlTEeyPfq1-ONS5qA" name="Annotations"/>
+      <visibility xmi:id="_K2C5kch5EeyPfq1-ONS5qA" label="-"/>
+      <cardinality xmi:id="_K2C5ksh5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+      <type xmi:id="_K2C5k8h5EeyPfq1-ONS5qA" name="TicketRepository">
+        <modelElement href="booking_ticket.uml#_KpiukMh5EeyPfq1-ONS5qA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_K2C5lMh5EeyPfq1-ONS5qA" name="getTicket">
+      <modelElement href="booking_ticket.uml#_Kp0bYMh5EeyPfq1-ONS5qA"/>
+      <stereotypes xmi:id="_K2C5lch5EeyPfq1-ONS5qA" name="Annotations">
+        <modelElement href="booking_ticket.uml#_Kp1CcMh5EeyPfq1-ONS5qA"/>
+      </stereotypes>
+      <visibility xmi:id="_K2C5lsh5EeyPfq1-ONS5qA" label="+"/>
+      <cardinality xmi:id="_K2C5l8h5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_K2C5mMh5EeyPfq1-ONS5qA">
+        <modelElement href="booking_ticket.uml#_KvYQ0Mh5EeyPfq1-ONS5qA"/>
+        <type xmi:id="_K2C5mch5EeyPfq1-ONS5qA" name="TicketEntity">
+          <modelElement href="booking_ticket.uml#_KprRcMh5EeyPfq1-ONS5qA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_K2C5msh5EeyPfq1-ONS5qA" name="id">
+        <modelElement href="booking_ticket.uml#_Kp0bYch5EeyPfq1-ONS5qA"/>
+        <cardinality xmi:id="_K2C5m8h5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+        <type xmi:id="_K2C5nMh5EeyPfq1-ONS5qA" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_K2C5nch5EeyPfq1-ONS5qA" name="bookTicket">
+      <modelElement href="booking_ticket.uml#_KwNXQMh5EeyPfq1-ONS5qA"/>
+      <stereotypes xmi:id="_K2C5nsh5EeyPfq1-ONS5qA" name="Annotations">
+        <modelElement href="booking_ticket.uml#_KwN-UMh5EeyPfq1-ONS5qA"/>
+      </stereotypes>
+      <visibility xmi:id="_K2C5n8h5EeyPfq1-ONS5qA" label="+"/>
+      <cardinality xmi:id="_K2C5oMh5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_K2C5och5EeyPfq1-ONS5qA">
+        <modelElement href="booking_ticket.uml#_KwNXQsh5EeyPfq1-ONS5qA"/>
+        <type xmi:id="_K2C5osh5EeyPfq1-ONS5qA" name="TicketEntity">
+          <modelElement href="booking_ticket.uml#_KprRcMh5EeyPfq1-ONS5qA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_K2C5o8h5EeyPfq1-ONS5qA" name="bookTicketRequest">
+        <modelElement href="booking_ticket.uml#_KwNXQch5EeyPfq1-ONS5qA"/>
+        <cardinality xmi:id="_K2C5pMh5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+        <type xmi:id="_K2C5pch5EeyPfq1-ONS5qA" name="BookTicketRequest">
+          <modelElement href="booking_ticket.uml#_KrM7cMh5EeyPfq1-ONS5qA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wHOpUMh_EeyPfq1-ONS5qA" name="getShows">
+      <modelElement href="booking_ticket.uml#_wGwvQMh_EeyPfq1-ONS5qA"/>
+      <stereotypes xmi:id="_wHOpUch_EeyPfq1-ONS5qA" name="StyledElement">
+        <modelElement href="booking_ticket.uml#_wGx9YMh_EeyPfq1-ONS5qA"/>
+      </stereotypes>
+      <visibility xmi:id="_wHOpUsh_EeyPfq1-ONS5qA" label="-"/>
+      <cardinality xmi:id="_wHOpU8h_EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_wHOpVMh_EeyPfq1-ONS5qA">
+        <modelElement href="booking_ticket.uml#_wGwvQsh_EeyPfq1-ONS5qA"/>
+        <type xmi:id="_wHOpVch_EeyPfq1-ONS5qA" name="ShowsEntity">
+          <modelElement href="booking_ticket.uml#_KrwVEMh5EeyPfq1-ONS5qA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wHOpVsh_EeyPfq1-ONS5qA" name="bookTicketRequest">
+        <modelElement href="booking_ticket.uml#_wGwvQch_EeyPfq1-ONS5qA"/>
+        <cardinality xmi:id="_wHOpV8h_EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+        <type xmi:id="_wHOpWMh_EeyPfq1-ONS5qA" name="BookTicketRequest">
+          <modelElement href="booking_ticket.uml#_KrM7cMh5EeyPfq1-ONS5qA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wHP3cMh_EeyPfq1-ONS5qA" name="getUser">
+      <modelElement href="booking_ticket.uml#_wGwvQ8h_EeyPfq1-ONS5qA"/>
+      <stereotypes xmi:id="_wHP3cch_EeyPfq1-ONS5qA" name="StyledElement">
+        <modelElement href="booking_ticket.uml#_wGx9Ych_EeyPfq1-ONS5qA"/>
+      </stereotypes>
+      <visibility xmi:id="_wHP3csh_EeyPfq1-ONS5qA" label="-"/>
+      <cardinality xmi:id="_wHP3c8h_EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_wHP3dMh_EeyPfq1-ONS5qA">
+        <modelElement href="booking_ticket.uml#_wGxWUMh_EeyPfq1-ONS5qA"/>
+        <type xmi:id="_wHP3dch_EeyPfq1-ONS5qA" name="UserEntity">
+          <modelElement href="booking_ticket.uml#_KrpAUch5EeyPfq1-ONS5qA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wHP3dsh_EeyPfq1-ONS5qA" name="bookTicketRequest">
+        <modelElement href="booking_ticket.uml#_wGwvRMh_EeyPfq1-ONS5qA"/>
+        <cardinality xmi:id="_wHP3d8h_EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+        <type xmi:id="_wHP3eMh_EeyPfq1-ONS5qA" name="BookTicketRequest">
+          <modelElement href="booking_ticket.uml#_KrM7cMh5EeyPfq1-ONS5qA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9NrFsMiAEeyPfq1-ONS5qA" name="getBookingSeats">
+      <modelElement href="booking_ticket.uml#_9Nii0MiAEeyPfq1-ONS5qA"/>
+      <stereotypes xmi:id="_9NrFsciAEeyPfq1-ONS5qA" name="StyledElement">
+        <modelElement href="booking_ticket.uml#_9NlmIMiAEeyPfq1-ONS5qA"/>
+      </stereotypes>
+      <visibility xmi:id="_9NrFssiAEeyPfq1-ONS5qA" label="-"/>
+      <cardinality xmi:id="_9NrFs8iAEeyPfq1-ONS5qA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_9NrFtMiAEeyPfq1-ONS5qA">
+        <modelElement href="booking_ticket.uml#_9NjJ4MiAEeyPfq1-ONS5qA"/>
+        <type xmi:id="_yrTLwMiDEeyPfq1-ONS5qA" name="ShowsSeatsEntity">
+          <modelElement href="booking_ticket.uml#_KvPt8ch5EeyPfq1-ONS5qA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_9NrFtsiAEeyPfq1-ONS5qA" name="bookTicketRequest">
+        <modelElement href="booking_ticket.uml#_9Nii0ciAEeyPfq1-ONS5qA"/>
+        <cardinality xmi:id="_9NrFt8iAEeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+        <type xmi:id="_9NrFuMiAEeyPfq1-ONS5qA" name="BookTicketRequest">
+          <modelElement href="booking_ticket.uml#_KrM7cMh5EeyPfq1-ONS5qA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_9NrFuciAEeyPfq1-ONS5qA" name="shows">
+        <modelElement href="booking_ticket.uml#_9Nii0siAEeyPfq1-ONS5qA"/>
+        <cardinality xmi:id="_9NrFusiAEeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+        <type xmi:id="_9NrFu8iAEeyPfq1-ONS5qA" name="ShowsEntity">
+          <modelElement href="booking_ticket.uml#_KrwVEMh5EeyPfq1-ONS5qA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_K10QAMh5EeyPfq1-ONS5qA" name="UserRepository" associationsIn="_K169sMh5EeyPfq1-ONS5qA">
+    <modelElement href="booking_ticket.uml#_Kpcn8Mh5EeyPfq1-ONS5qA"/>
+    <visualProperties xmi:id="_K10QAch5EeyPfq1-ONS5qA" position="-865.0,344.0" size="286.0,128.0"/>
+    <stereotypes xmi:id="_K10QAsh5EeyPfq1-ONS5qA" name="LegacyStyledElement">
+      <modelElement href="booking_ticket.uml#_KpdPA8h5EeyPfq1-ONS5qA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_K10QA8h5EeyPfq1-ONS5qA" name="Annotations">
+      <modelElement href="booking_ticket.uml#_KpfrQsh5EeyPfq1-ONS5qA"/>
+    </stereotypes>
+    <visibility xmi:id="_K10QBMh5EeyPfq1-ONS5qA" label="+"/>
+    <operations xmi:id="_K10QBch5EeyPfq1-ONS5qA" name="existsByMobile">
+      <modelElement href="booking_ticket.uml#_Kpd2EMh5EeyPfq1-ONS5qA"/>
+      <stereotypes xmi:id="_K10QBsh5EeyPfq1-ONS5qA" name="StyledElement">
+        <modelElement href="booking_ticket.uml#_KpedIch5EeyPfq1-ONS5qA"/>
+      </stereotypes>
+      <visibility xmi:id="_K10QB8h5EeyPfq1-ONS5qA" label="+"/>
+      <cardinality xmi:id="_K10QCMh5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_K10QCch5EeyPfq1-ONS5qA">
+        <modelElement href="booking_ticket.uml#_KpedIMh5EeyPfq1-ONS5qA"/>
+        <type xmi:id="_K10QCsh5EeyPfq1-ONS5qA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_K10QC8h5EeyPfq1-ONS5qA" name="mobile">
+        <modelElement href="booking_ticket.uml#_Kpd2Ech5EeyPfq1-ONS5qA"/>
+        <cardinality xmi:id="_K10QDMh5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+        <type xmi:id="_K10QDch5EeyPfq1-ONS5qA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_K10QDsh5EeyPfq1-ONS5qA" name="deleteByMobile">
+      <modelElement href="booking_ticket.uml#_KpfEMMh5EeyPfq1-ONS5qA"/>
+      <stereotypes xmi:id="_K10QD8h5EeyPfq1-ONS5qA" name="Annotations">
+        <modelElement href="booking_ticket.uml#_KpfrQMh5EeyPfq1-ONS5qA"/>
+      </stereotypes>
+      <visibility xmi:id="_K10QEMh5EeyPfq1-ONS5qA" label="+"/>
+      <cardinality xmi:id="_K10QEch5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_K10QEsh5EeyPfq1-ONS5qA" name="mobile">
+        <modelElement href="booking_ticket.uml#_KpfEMch5EeyPfq1-ONS5qA"/>
+        <cardinality xmi:id="_K10QE8h5EeyPfq1-ONS5qA" label="1" max="1" min="1"/>
+        <type xmi:id="_K10QFMh5EeyPfq1-ONS5qA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_K1xMsMh5EeyPfq1-ONS5qA" name="TicketRepository" associationsIn="_K18L0Mh5EeyPfq1-ONS5qA">
+    <modelElement href="booking_ticket.uml#_KpiukMh5EeyPfq1-ONS5qA"/>
+    <visualProperties xmi:id="_K1xMsch5EeyPfq1-ONS5qA" position="-821.0,143.0" size="227.0,73.0"/>
+    <stereotypes xmi:id="_K1xMssh5EeyPfq1-ONS5qA" name="LegacyStyledElement">
+      <modelElement href="booking_ticket.uml#_KpjVo8h5EeyPfq1-ONS5qA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_K1xMs8h5EeyPfq1-ONS5qA" name="Annotations">
+      <modelElement href="booking_ticket.uml#_Kpj8sMh5EeyPfq1-ONS5qA"/>
+    </stereotypes>
+    <visibility xmi:id="_K1xMtMh5EeyPfq1-ONS5qA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_K1uwcMh5EeyPfq1-ONS5qA" name="ShowsRepository" associationsIn="_K17kwMh5EeyPfq1-ONS5qA">
+    <modelElement href="booking_ticket.uml#_Kpg5YMh5EeyPfq1-ONS5qA"/>
+    <visualProperties xmi:id="_K1uwcch5EeyPfq1-ONS5qA" position="-809.0,260.0" size="217.0,67.0"/>
+    <stereotypes xmi:id="_K1uwcsh5EeyPfq1-ONS5qA" name="LegacyStyledElement">
+      <modelElement href="booking_ticket.uml#_Kphgc8h5EeyPfq1-ONS5qA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_K1uwc8h5EeyPfq1-ONS5qA" name="Annotations">
+      <modelElement href="booking_ticket.uml#_KpiHgMh5EeyPfq1-ONS5qA"/>
+    </stereotypes>
+    <visibility xmi:id="_K1uwdMh5EeyPfq1-ONS5qA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_agsycslTEeyPfq1-ONS5qA" sourceConnectionVisual="_agsyc8lTEeyPfq1-ONS5qA" text="@author sharsoni&#xA; *" item="_K1guAMh5EeyPfq1-ONS5qA">
+    <modelElement href="booking_ticket.uml#_UiZYEMk_EeyPfq1-ONS5qA"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
